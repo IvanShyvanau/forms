@@ -1,0 +1,90 @@
+body{
+  position: absolute;
+  background-color:#4f4f4f;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.form{
+  border: 1px solid #fff;
+  width: 400px;
+  height: 400px;
+  background-color:#4f4f4f;
+  margin-top: 20px;
+  position: relative;
+  top: 200px;
+  left: 550px;
+}
+
+.form-title{
+  width: 240px;
+  position: relative;
+  top: 30px;
+  left: 60px;
+  padding: 30px 20px;
+  border-radius: 30px;
+  box-shadow:inset 0px 0px 30px 0px rgba(50, 50, 53, 0.95);
+  text-align: center;
+  color: #fff;
+}
+
+.inputs{
+  position: relative;
+  top:20px;
+  float: left;
+  width: 100px;
+  left:75px;
+}
+
+.input-main__phone{
+  position: absolute;
+  top: 70px;
+}
+
+#names{
+  width: 200px;
+  height: 40px;
+  border-radius: 25px;
+  background-color: #4f4f4f;
+  padding-left: 50px;
+}
+
+
+#number{
+  width: 200px;
+  height: 40px;
+  border-radius: 25px;
+  background-color: #4f4f4f;
+  padding-left: 50px;
+}
+
+.input-logo{
+  position: relative;
+  top: 49px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+
+}
+
+
+.input-logo__phone{
+  position: relative;
+  top: 49px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+
+}
+
+.button{
+position: absolute;
+top: 305px;
+right: 66px;
+
+width: 250px;
+height: 44px;
+border-radius: 22px;
+background-color: #0190cb;
+color: #fff;
+}
