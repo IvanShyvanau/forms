@@ -13,7 +13,7 @@ body{
   margin-top: 20px;
   position: relative;
   top: 200px;
-  left: 550px;
+  left: 430px;
 }
 
 .form-title{
@@ -99,7 +99,6 @@ color: #fff;
   position: absolute;
   top:200px;
   left: 10px;
-
 }
 
 .form-title__first{
@@ -184,3 +183,30 @@ color: #fff;
   color: #fff;
   text-align: center;
 }
+
+ /*Третья форма*/
+.form-second{
+  border: 1px solid #fff;
+  width:500px;
+  height: 350px;
+  background-color:#1bbc9b;
+  margin-top: 20px;
+  position: absolute;
+  top:200px;
+  left: 850px;
+}
+
+.image{
+  width: 100px;
+  height: 100px;
+}
+
+
+.triangle {
+	width: 0;
+	height: 0;
+	border-top: 13px solid transparent;
+	border-right: 12px solid red;
+	border-bottom: 13px solid transparent;
+}
+
