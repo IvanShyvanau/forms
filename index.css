@@ -88,3 +88,99 @@ border-radius: 22px;
 background-color: #0190cb;
 color: #fff;
 }
+
+/*Вторая форма*/
+.form-first{
+  border: 1px solid #fff;
+  width: 400px;
+  height: 400px;
+  background-color:#4f4f4f;
+  margin-top: 20px;
+  position: absolute;
+  top:200px;
+  left: 10px;
+
+}
+
+.form-title__first{
+  width: 350px;
+  height: 80px;
+  color: #fff;
+  font-size: 0.8rem;
+  margin-top: 20px;
+  margin-left: 20px;
+  text-align: center;
+
+
+}
+.attantion{
+  font-size: 2.5rem;
+  margin-left: 10px;
+}
+
+#names-first{
+  width: 297px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: #4f4f4f;
+  padding-left: 50px;
+  margin-left: 20px;
+  margin-top: 20px;
+  color: #fff;
+  font-size: 1.2rem;
+
+}
+
+#names-first:focus{
+  border:1px solid #2caf64;
+}
+#names-first::placeholder{
+  color: #fff;
+  padding-left: 85px;
+}
+
+#number-first{
+  width: 297px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: #4f4f4f;
+  padding-left: 50px;
+  margin-left: 20px;
+  margin-top: 10px;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+#number-first::placeholder{
+  color: #fff;
+  padding-left: 30px;
+}
+
+#mail{
+  width: 297px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: #4f4f4f;
+  padding-left: 50px;
+  margin-left: 20px;
+  margin-top: 10px;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+#mail::placeholder{
+  color: #fff;
+  padding-left: 30px;
+}
+
+.button__first{
+  width: 350px;
+  height: 60px;
+  border-radius: 40px;
+  background-color: #2caf64;
+  margin-left: 20px;
+  margin-top: 10px;
+  font-size: 1.6rem;
+  color: #fff;
+  text-align: center;
+}
