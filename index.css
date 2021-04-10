@@ -127,6 +127,8 @@ color: #fff;
   margin-top: 20px;
   color: #fff;
   font-size: 1.2rem;
+  border: 1px solid #fff;
+  outline: none;
 
 }
 
@@ -148,6 +150,12 @@ color: #fff;
   margin-top: 10px;
   color: #fff;
   font-size: 1.2rem;
+  outline: none;
+  border: 1px solid #fff;
+}
+
+#number-first:focus{
+  border:1px solid #2caf64;
 }
 
 #number-first::placeholder{
@@ -165,6 +173,12 @@ color: #fff;
   margin-top: 10px;
   color: #fff;
   font-size: 1.2rem;
+  outline: none;
+  border: 1px solid #fff;
+}
+
+#mail:focus{
+  border:1px solid #2caf64;
 }
 
 #mail::placeholder{
@@ -187,7 +201,7 @@ color: #fff;
  /*Третья форма*/
 .form-second{
   border: 1px solid #fff;
-  width:500px;
+  width:600px;
   height: 350px;
   background-color:#1bbc9b;
   margin-top: 20px;
@@ -197,16 +211,120 @@ color: #fff;
 }
 
 .image{
+  margin-left: 60px;
+  margin-top: 60px;
+}
+#Capa_1{
   width: 100px;
   height: 100px;
 }
 
+.image-text{
+  width: 100px;
+  height: 100px;
+  color: #fff;
+  margin-top: 15px;
+}
+
+.text-bold{
+font-weight: bold;
+}
+
+.triangle-left{
+position: absolute;
+top: 10px;
+}
 
 .triangle {
 	width: 0;
 	height: 0;
 	border-top: 13px solid transparent;
-	border-right: 12px solid red;
+	border-right: 12px solid #eeeff1;
 	border-bottom: 13px solid transparent;
+  position: absolute;
+  left: 178px;
+  top: 80px;
 }
+
+.suqare{
+  width: 300px;
+  height: 230px;
+  background-color: #eeeff1;
+  float: left;
+  position: absolute;
+  top: 50px;
+  left: 190px;
+  border-radius: 10px;
+}
+
+
+#thirth{
+  width: 250px;
+  height: 35px;
+  margin-top: 25px;
+  border-radius: 5px;
+  border: none;
+  margin-left: 20px;
+  outline: none;
+}  
+
+#thirth::placeholder{
+  padding-left: 15px;
+}
+
+#thirth:focus{
+  border: 2px solid #1bbc9b;
+}
+
+.login-icon{
+  position: absolute;
+  left: 240px;
+  top: 32px;
+}
+
+#pass{
+  width: 250px;
+  height: 35px;
+  margin: 20px 20px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+#pass::placeholder{
+  padding-left: 15px;
+}
+
+#pass:focus{
+  border: 2px solid #1bbc9b;
+}
+
+.password-icon{
+  position: absolute;
+  left: 240px;
+  top: 90px;
+}
+
+.button__second{
+  width: 250px;
+  height: 35px;
+  margin: 0 20px;
+  border-radius: 5px;
+  background-color: #1bbc9b;
+  border: none;
+  color: #fff;
+}
+
+
+.forget-password{
+  margin-top: 15px;
+  margin-left: 80px;
+}
+
+.link{
+text-decoration: none;
+color: #cbcfd0;
+}
+
+
 
